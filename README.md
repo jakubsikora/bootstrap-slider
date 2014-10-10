@@ -83,7 +83,7 @@ mySlider
 
 Options
 =======
-Options can be passed either as a data (data-slider-foo) attribute, or as part of an object in the slider call. The only exception here is the formater argument - that can not be passed as a data- attribute.
+Options can be passed either as a data (data-slider-foo) attribute, or as part of an object in the slider call. The only exception here is the formatter argument - that can not be passed as a data- attribute.
 
 
 | Name | Type |	Default |	Description |
@@ -92,7 +92,7 @@ Options can be passed either as a data (data-slider-foo) attribute, or as part o
 | min |	float	| 0 |	minimum possible value |
 | max |	float |	10 |	maximum possible value |
 | step | float |	1 |	increment step |
-| precision | float |	0 |	The number of digits shown after the decimal. Defaults to the number of digits after the decimal of _step_ value. |
+| precision | float |	number of digits after the decimal of _step_ value |	The number of digits shown after the decimal. Defaults to the number of digits after the decimal of _step_ value. |
 | orientation |	string | 'horizontal' |	set the orientation. Accepts 'vertical' or 'horizontal' |
 | value |	float,array |	5	| initial value. Use array to have a range slider. |
 | range |	bool |	false	| make range slider. Optional if initial value is an array. If initial value is scalar, max will be used for second value. |
@@ -108,7 +108,7 @@ Options can be passed either as a data (data-slider-foo) attribute, or as part o
 
 Functions
 =========
-__NOTE:__ Optional parameters are italisized.
+__NOTE:__ Optional parameters are italicized.
 
 | Function | Parameters | Description |
 | -------- | ----------- | ----------- |
